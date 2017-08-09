@@ -1,4 +1,6 @@
 # brainfuck-rs
+[![Build Status](https://travis-ci.org/Fylipp/brainfuck-rs.svg?branch=master)](https://travis-ci.org/Fylipp/brainfuck-rs)
+
 This is a simple Brainfuck interpreter written in Rust. This is my first attempt at using Rust.
 
 ## Aim
