@@ -1,7 +1,8 @@
 # brainfuck-rs
 [![Build Status](https://travis-ci.org/Fylipp/brainfuck-rs.svg?branch=master)](https://travis-ci.org/Fylipp/brainfuck-rs)
 
-This is a simple Brainfuck interpreter written in Rust. This is my first attempt at using Rust.
+This is a simple Brainfuck interpreter written in Rust. This is my first attempt at using Rust. The CI tests will fail
+for as long as `std::ops::RangeInclusive` is only in the nightly build.
 
 ## Aim
 To aim is to implement a Brainfuck interpreter that has 2^16 cells with 2^8 possible states each. Characters that do
